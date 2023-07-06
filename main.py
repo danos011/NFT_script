@@ -4,6 +4,9 @@ from prettytable import PrettyTable
 
 from models import OutputInfo, NFT, Attribute, AttributeInfo, Property
 
+FOLDER_NAME = '1000_1'
+NUMBER_OF_FILES = 1000
+
 tier_1_attributes: List[AttributeInfo] = []
 tier_2_attributes: List[AttributeInfo] = []
 tier_3_attributes: List[AttributeInfo] = []
@@ -41,18 +44,8 @@ def get_weight(property: str, item_tier: int, trait_type: str) -> int:
     return 0
 
 
-def count_all_quantity():
-    for item in tier_3_attributes:
-        sum = 0
-        for p in item.properties:
-            sum += p.quantity
-        item.all_quantity = sum
-    for item in tier_2_attributes:
-        sum = 0
-        for p in item.properties:
-            sum += p.quantity
-        item.all_quantity = sum
-    for item in tier_1_attributes:
+def count_all_quantity(data: list):
+    for item in data:
         sum = 0
         for p in item.properties:
             sum += p.quantity
@@ -60,8 +53,7 @@ def count_all_quantity():
 
 
 def get_data(index: int) -> OutputInfo:
-
-    with open(f'1000_1/{index}.json', "r") as f:
+    with open(f'{FOLDER_NAME}/{index}.json', "r") as f:
         text = f.read()
     dict_data = dict(json.loads(text))
 
@@ -129,7 +121,7 @@ def init_attributes():
 
 
 def add_data_to_lists():
-    for i in range(1, 1001):
+    for i in range(1, NUMBER_OF_FILES + 1):
         data = get_data(i)
         sum_value = 0
         for attribute in data.item.attributes:
@@ -176,10 +168,15 @@ def output_nft(data: list, tier: int):
 def main():
     init_attributes()
     add_data_to_lists()
-    count_all_quantity()
+
+    count_all_quantity(tier_1_attributes)
+    count_all_quantity(tier_2_attributes)
+    count_all_quantity(tier_3_attributes)
+
     output_attributes_info(tier_1_attributes, 1)
     output_attributes_info(tier_2_attributes, 2)
     output_attributes_info(tier_3_attributes, 3)
+
     output_nft(tier1, 1)
     output_nft(tier2, 2)
     output_nft(tier3, 3)
