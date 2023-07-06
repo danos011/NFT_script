@@ -1,0 +1,481 @@
+[{
+    "trait_type": "background",
+    "properties": [
+        {
+            "name": "light_green",
+            "weight": "20"
+        },
+        {
+            "name": "light_blue",
+            "weight": "20"
+        },
+        {
+            "name": "blue",
+            "weight": "20"
+        },
+        {
+            "name": "yellow",
+            "weight": "20"
+        },
+        {
+            "name": "peach",
+            "weight": "20"
+        },
+        {
+            "name": "violet",
+            "weight": "20"
+        },
+        {
+            "name": "purple",
+            "weight": "20"
+        },
+        {
+            "name": "red",
+            "weight": "20"
+        },
+        {
+            "name": "space",
+            "weight": "36"
+        },
+        {
+            "name": "matrix",
+            "weight": "18"
+        }
+    ]
+},
+{
+    "trait_type": "entourage_background",
+    "properties": [
+        {
+            "name": "Original",
+            "weight": "20"
+        },
+        {
+            "name": "diamond_regular",
+            "weight": "2"
+        },
+        {
+            "name": "diamond_cash",
+            "weight": "4"
+        },
+        {
+            "name": "diamond_diamond",
+            "weight": "6"
+        },
+        {
+            "name": "diamond_extra",
+            "weight": "8"
+        },
+        {
+            "name": "ballons_thumbsup",
+            "weight": "2"
+        },
+        {
+            "name": "tropical",
+            "weight": "6"
+        },
+        {
+            "name": "rainbow",
+            "weight": "4"
+        },
+        {
+            "name": "volcano",
+            "weight": "4"
+        }
+    ]
+},
+{
+    "trait_type": "plumage",
+    "properties": [
+        {
+            "name": "duck",
+            "weight": "5"
+        },
+        {
+            "name": "rabbit",
+            "weight": "5"
+        },
+        {
+            "name": "quail",
+            "weight": "5"
+        },
+        {
+            "name": "dragon",
+            "weight": "10"
+        },
+        {
+            "name": "cock",
+            "weight": "10"
+        },
+        {
+            "name": "fish",
+            "weight": "15"
+        },
+        {
+            "name": "swallow",
+            "weight": "15"
+        },
+        {
+            "name": "swift",
+            "weight": "15"
+        },
+        {
+            "name": "peacock",
+            "weight": "8"
+        },
+        {
+            "name": "pigeon",
+            "weight": "15"
+        },
+        {
+            "name": "scorpion",
+            "weight": "8"
+        },
+        {
+            "name": "squirrel",
+            "weight": "15"
+        },
+        {
+            "name": "tyrannus",
+            "weight": "15"
+        },
+        {
+            "name": "cicinnurus",
+            "weight": "15"
+        },
+        {
+            "name": "tonosaur",
+            "weight": "8"
+        }
+    ]
+},
+{
+    "trait_type": "paws ",
+    "properties": [
+        {
+            "name": "duck",
+            "weight": "5"
+        },
+        {
+            "name": "ostrich",
+            "weight": "5"
+        },
+        {
+            "name": "winter",
+            "weight": "5"
+        },
+        {
+            "name": "heron",
+            "weight": "15"
+        },
+        {
+            "name": "vulture",
+            "weight": "15"
+        },
+        {
+            "name": "eagle",
+            "weight": "10"
+        },
+        {
+            "name": "yoga",
+            "weight": "15"
+        },
+        {
+            "name": "satyr",
+            "weight": "20"
+        },
+        {
+            "name": "beast",
+            "weight": "20"
+        },
+        {
+            "name": "gargoyle",
+            "weight": "12"
+        },
+        {
+            "name": "exoskeleton",
+            "weight": "16"
+        },
+        {
+            "name": "octopus",
+            "weight": "7"
+        },
+        {
+            "name": "arachnid",
+            "weight": "7"
+        }
+    ]
+},
+{
+    "trait_type": "hairstyle",
+    "properties": [
+        {
+            "name": "guy",
+            "weight": "20"
+        },
+        {
+            "name": "hier",
+            "weight": "20"
+        },
+        {
+            "name": "chick",
+            "weight": "15"
+        },
+        {
+            "name": "cap_white",
+            "weight": "30"
+        },
+        {
+            "name": "cap#1",
+            "weight": "25"
+        },
+        {
+            "name": "hat_black",
+            "weight": "16"
+        },
+        {
+            "name": "elf",
+            "weight": "12"
+        },
+        {
+            "name": "curly_pink#10",
+            "weight": "25"
+        },
+        {
+            "name": "santa",
+            "weight": "16"
+        },
+        {
+            "name": "calvity_lightgreen#10",
+            "weight": "25"
+        },
+        {
+            "name": "punk",
+            "weight": "20"
+        },
+        {
+            "name": "hipster_blue#10",
+            "weight": "25"
+        },
+        {
+            "name": "dreadlocks",
+            "weight": "20"
+        },
+        {
+            "name": "cutie_black#10",
+            "weight": "25"
+        },
+        {
+            "name": "pharaoh_blue#5",
+            "weight": "16"
+        },
+        {
+            "name": "handsome_yellow#10",
+            "weight": "25"
+        },
+        {
+            "name": "wig",
+            "weight": "16"
+        },
+        {
+            "name": "simple_purple#10",
+            "weight": "25"
+        }
+    ]
+},
+{
+    "trait_type": "eye_shape",
+    "properties": [
+        {
+            "name": "duck",
+            "weight": "2"
+        },
+        {
+            "name": "chick",
+            "weight": "2"
+        },
+        {
+            "name": "thirdeye",
+            "weight": "2"
+        },
+        {
+            "name": "reptilian",
+            "weight": "6"
+        },
+        {
+            "name": "tiredboy",
+            "weight": "3"
+        },
+        {
+            "name": "angryboy",
+            "weight": "5"
+        },
+        {
+            "name": "pensiveboy",
+            "weight": "5"
+        },
+        {
+            "name": "mehboy",
+            "weight": "7"
+        },
+        {
+            "name": "ufoboy",
+            "weight": "4"
+        },
+        {
+            "name": "surprisedgirl",
+            "weight": "4"
+        },
+        {
+            "name": "crazyboy",
+            "weight": "3"
+        },
+        {
+            "name": "cryinggirl",
+            "weight": "3"
+        },
+        {
+            "name": "ton",
+            "weight": "4"
+        },
+        {
+            "name": "sunglasses",
+            "weight": "4"
+        }
+    ]
+},
+{
+    "trait_type": "wings",
+    "properties": [
+        {
+            "name": "duck",
+            "weight": "10"
+        },
+        {
+            "name": "penguin",
+            "weight": "10"
+        },
+        {
+            "name": "ok",
+            "weight": "15"
+        },
+        {
+            "name": "rock",
+            "weight": "20"
+        },
+        {
+            "name": "thumbsup_diamond",
+            "weight": "15"
+        },
+        {
+            "name": "fuck",
+            "weight": "15"
+        },
+        {
+            "name": "spock",
+            "weight": "10"
+        },
+        {
+            "name": "yoga",
+            "weight": "10"
+        },
+        {
+            "name": "rapping_diamond",
+            "weight": "15"
+        },
+        {
+            "name": "power",
+            "weight": "15"
+        },
+        {
+            "name": "hiphop",
+            "weight": "10"
+        },
+        {
+            "name": "boxing_black",
+            "weight": "10"
+        },
+        {
+            "name": "boxing_red",
+            "weight": "10"
+        },
+        {
+            "name": "boxing_blue",
+            "weight": "10"
+        },
+        {
+            "name": "love",
+            "weight": "10"
+        },
+        {
+            "name": "gun",
+            "weight": "14"
+        },
+        {
+            "name": "myprecious",
+            "weight": "10"
+        },
+        {
+            "name": "sir",
+            "weight": "8"
+        },
+        {
+            "name": "machete",
+            "weight": "14"
+        }
+    ]
+},
+{
+    "trait_type": "beak",
+    "properties": [
+        {
+            "name": "duck",
+            "weight": "12"
+        },
+        {
+            "name": "oops",
+            "weight": "12"
+        },
+        {
+            "name": "mouthful",
+            "weight": "12"
+        },
+        {
+            "name": "serious",
+            "weight": "12"
+        },
+        {
+            "name": "eataworm",
+            "weight": "20"
+        },
+        {
+            "name": "toothless",
+            "weight": "20"
+        },
+        {
+            "name": "beast",
+            "weight": "15"
+        },
+        {
+            "name": "omg",
+            "weight": "12"
+        },
+        {
+            "name": "happy",
+            "weight": "12"
+        },
+        {
+            "name": "indifference",
+            "weight": "12"
+        },
+        {
+            "name": "yuck",
+            "weight": "15"
+        },
+        {
+            "name": "kiss",
+            "weight": "15"
+        }
+    ]
+}
+]
