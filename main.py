@@ -160,6 +160,19 @@ def output_attributes_info(data: list, tier: int):
             fp.write('\n\n')
 
 
+def output_nft(data: list, tier: int):
+    if not data:
+        return
+    with open(f'nft_data_tier{tier}.txt', 'w') as fp:
+        output = PrettyTable()
+        output.title = "Nft's from rarest to common"
+        for item in data:
+            output.field_names = ['name', 'rarity_score', 'tier']
+            output.add_row([item.item.name, item.rarity_score, item.item.tier])
+        fp.write(output.get_string())
+        fp.write('\n\n')
+
+
 def main():
     init_attributes()
     add_data_to_lists()
@@ -167,6 +180,9 @@ def main():
     output_attributes_info(tier_1_attributes, 1)
     output_attributes_info(tier_2_attributes, 2)
     output_attributes_info(tier_3_attributes, 3)
+    output_nft(tier1, 1)
+    output_nft(tier2, 2)
+    output_nft(tier3, 3)
 
     return 0
 
