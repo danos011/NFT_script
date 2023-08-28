@@ -4,8 +4,8 @@ from prettytable import PrettyTable
 
 from models import OutputInfo, NFT, Attribute, AttributeInfo, Property
 
-FOLDER_NAME = '1000_1'
-NUMBER_OF_FILES = 1000
+FOLDER_NAME = 'T3 - 2500'
+NUMBER_OF_FILES = 2500
 
 tier_1_attributes: List[AttributeInfo] = []
 tier_2_attributes: List[AttributeInfo] = []
@@ -53,7 +53,7 @@ def count_all_quantity(data: list):
 
 
 def get_data(index: int) -> OutputInfo:
-    with open(f'{FOLDER_NAME}/{index}.json', "r") as f:
+    with open(f'{FOLDER_NAME}/JSON/{index}.json', "r") as f:
         text = f.read()
     dict_data = dict(json.loads(text))
 
@@ -62,7 +62,7 @@ def get_data(index: int) -> OutputInfo:
         attributes.append(Attribute(trait_type=attribute.get("trait_type"),
                                     value=attribute.get("value")))
 
-    return OutputInfo(item=NFT(name=dict_data['name'],
+    return OutputInfo(item=NFT(name=str(index),
                                image=dict_data['image'],
                                attributes=attributes,
                                tier=dict_data['attributes'].pop().get("value")), rarity_score=0)
